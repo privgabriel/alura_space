@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Aquire';
+  src: url('../fonts/AquireBold-8Ma60.otf') format('opentype');
+}
+body {
+    background-color: #050305;
+}
+.texto_topo {
+    font-family: 'Aquire';
+    text-align: center;
+    font-size: 32px;
+    animation: colorRotate 1s linear 0s infinite;
+}
+@keyframes colorRotate {
+        from {
+          color: #6666ff;
+        }
+        10% {
+          color: #0099ff;
+        }
+        50% {
+          color: #00ff00;
+        }
+        75% {
+          color: #ff3399;
+        }
+        100% {
+          color: #6666ff;
+        }
+}
+.img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.canivete {
+    text-align: center;
+    font-family: 'Aquire';
+    color: white;
+}
+.input_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 25px;
+
+}
+.input_link {
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 0 20px;
+    background: transparent;
+    font-size: 16px;
+    margin: 0;
+    animation: colorRotate 1s linear 0s infinite;
+}
+.button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.xss_button {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    font-size: 16px;
+    font-family: monospace;
+    margin: 0;
+    animation: colorRotate 1s linear 0s infinite;
+}
